@@ -26,6 +26,22 @@ The app aggregates news from trusted sources (via **News API & Firebase**) and p
 
 ---
 
+## 🎨 Output (UI Highlights)  
+- 📰 Real-time news list with images & descriptions  
+- 📌 Clickable cards → open full news details  
+- 🔖 Bookmark for offline access  
+- 🌙 Dark mode toggle  
+
+---
+
+## 📱 Future Enhancements  
+- 🌍 Multi-language news support  
+- 🧠 AI-powered article summarization  
+- 🔖 Advanced bookmarking (folders, tags)  
+- 🗨️ Social sharing (share news directly to social apps)  
+
+---
+
 ## 📱 App Flow (Main Activity Example)  
 
 ```kotlin
@@ -50,20 +66,10 @@ class MainPage : ComponentActivity() {
                 }
             }
         }
+    }
+}
 
-## 🎨 Output (UI Highlights)  
-- 📰 Real-time news list with images & descriptions  
-- 📌 Clickable cards → open full news details  
-- 🔖 Bookmark for offline access  
-- 🌙 Dark mode toggle  
 
----
-
-## 📱 Future Enhancements  
-- 🌍 Multi-language news support  
-- 🧠 AI-powered article summarization  
-- 🔖 Advanced bookmarking (folders, tags)  
-- 🗨️ Social sharing (share news directly to social apps)  
 
     }
 }
